@@ -1,12 +1,28 @@
+/**
+ * @description
+ * creating the http server
+ */
 const http = require("http");
 
-const HOST_NAME = "127.0.0.1";
+/**
+ * @description
+ * server port
+ */
 const SERVER_PORT = 8080;
 
-const server = http.createServer((req, res) => {
-  console.log({ req, res });
-});
+/**
+ * @description
+ * initializing the server
+ */
+http
+  .createServer((req, res) => {
+    /**
+     * @req = http.IncomingMessage
+     * @res = http.ServerResponse
+     */
 
-server.listen(SERVER_PORT, HOST_NAME, () => {
-  console.log("server is listening...!");
-});
+    res.statusCode = 200;
+    res.setHeader("Content-Type", "text/plain");
+    res.end("Hello World!");
+  })
+  .listen(SERVER_PORT);
