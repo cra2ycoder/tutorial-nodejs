@@ -7,3 +7,5 @@ module.exports = {
   subtract,
   multiply
 };
+
+// console.log(module.exports, exports);
