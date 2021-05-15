@@ -20,6 +20,32 @@ When Node.js performs an I/O operation, like reading from the network, accessing
 - Has larger developer community
 - Has 10L+ free npm packages
 
-Note: Node.js doest have access for `window, document / web APIs`
+Note: Node.js doesn't have access for `window, document / web APIs`
 
 ---
+
+# About V8
+
+- Javascript Engine
+- Powered by Google
+- Coverts javascript into machine language (01010101101...)
+- written in C++
+- Provides runtime environment for Javascript (which uses by the Node.js)
+
+---
+
+# How to Install?
+
+https://nodejs.dev/learn/how-to-install-nodejs
+
+---
+
+# How to run?
+
+```s
+node <%filename.js%>
+
+# or
+
+node <%path/to/filename.js%>
+```
