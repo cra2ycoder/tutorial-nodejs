@@ -75,3 +75,24 @@ npm run start
 
 - Yarn
 - PNPM
+
+---
+
+# Where does npm install the packages?
+
+- will be installed at `<current_project_folder>/root/node_modules`
+
+```s
+npm install <%pkg-name%>
+```
+
+- will be installed at the global location
+  `/usr/local/lib/node_modules`
+
+```s
+npm install -g <%pkg-name%>
+```
+
+**Note:** the location will be varied based on the OS, so to ensure run `npm root -g`
+
+---
