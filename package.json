@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js NODE_ENV=development"
+    "start": "nodemon src/index.js NODE_ENV=development",
+    "http": "nodemon src/httpNew.js NODE_ENV=development"
   },
   "dependencies": {},
   "devDependencies": {
