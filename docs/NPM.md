@@ -96,3 +96,17 @@ npm install -g <%pkg-name%>
 **Note:** the location will be varied based on the OS, so to ensure run `npm root -g`
 
 ---
+
+
+## How to create package.json file?
+
+- step by step by answering the questions
+  
+```s
+npm init
+```
+- instant creation
+
+```s
+npm init -y
+```
